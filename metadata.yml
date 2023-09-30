@@ -1,0 +1,14 @@
+---
+:id: 180818053
+:submitters:
+- :name: Timur Kasimov
+  :email: kasimovt@grinnell.edu
+- :name: Connor Durkin
+  :email: durkinco@grinnell.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-05-17 03:54:27.037756000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-05-16 20:54:27.037756000 Z
+:status: processed
+:score: 20.0
