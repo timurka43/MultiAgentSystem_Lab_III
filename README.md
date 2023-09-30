@@ -3,7 +3,7 @@ This is the third lab in the series of 3 lab projects designed to introduce Mult
 
 Here is a short description of what exactly this program does:
 
- ## PART 1: part1.java
+ ## PART 1:  part1.java
 This program gives users the menu option to create 4 different types of networks:
 
 * Two of the networks are borrowed from predefined examples by Albert-László Barabási in http://networksciencebook.com/chapter/3#number-of-links
@@ -23,5 +23,9 @@ All networks are written to a respective text file in the following format:
        ...
        
        4 -1 //4 is not connected to anything
+
+
+ ## PART 2:  part2.java
+This program runs a modified version of the prisoner's dilemma game. There is a user menu available to choose 6 pre-defined modes and 7th custom mode of the game to simulate.
    
   
