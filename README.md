@@ -1,20 +1,26 @@
-# MultiAgentSystem_Lab_III
-This is the third lab in the series of 3 lab projects designed to introduce Multi-Agent Systems (MAS) as a base for Machine Learning. Note that these series do not feature any Machine Learning, only MAS and some basic strategy adjustment based on communication between agents. I completed these labs in my OO Programming, Data Structures, and Algorithms class.
+# PrisonersDilemmaSimulator
+This project is the third in a series of three labs designed to introduce Multi-Agent Systems (MAS) as a foundation for understanding Machine Learning (ML). While these labs do not include ML techniques, they focus on the principles of MAS and basic strategy adjustments based on communication between agents. I completed this project as part of my Object-Oriented Programming, Data Structures, and Algorithms class.
 
-Here is a short description of what exactly this program does:
+## Description
+The simulator consists of two main components:
 
- ## PART 1:  part1.java
-This program gives users the menu option to create 4 different types of networks:
+## Part 1: Network Creation (part1.java)
+This program provides a menu-driven interface for users to create four types of networks:
 
-* Two of the networks are borrowed from predefined examples by Albert-László Barabási in http://networksciencebook.com/chapter/3#number-of-links
+1. Predefined Networks (2 types):
 
-* The third network lets the user pick a number of nodes and the probability of connection between any two nodes
+   * Based on examples from Albert-László Barabási's [Network Science](https://networksciencebook.com/chapter/3).
 
-* The last network takes the shape of a lattice, where each node has exactly 4 connections
+   * These networks demonstrate real-world structural principles, such as scale-free networks.
+2. Random Network, where users can specify:
+   * The number of nodes.
+   * The probability of connection between any two nodes.
 
+3. Lattice Network:
+   * Each node is connected to exactly four neighbors, forming a regular lattice structure.
 
- 
-All networks are written to a respective text file in the following format:
+## Output Format:
+The generated networks are written to a text file in the following format:
 
        1 3 // 1 and 3 connected
       
@@ -25,7 +31,14 @@ All networks are written to a respective text file in the following format:
        4 -1 //4 is not connected to anything
 
 
- ## PART 2:  part2.java
-This program runs a modified version of the prisoner's dilemma game. There is a user menu available to choose 6 pre-defined modes and 7th custom mode of the game to simulate.
-   
-  
+
+
+
+
+## Part 2: Game Simulation (part2.java)
+This program simulates a modified version of the Prisoner's Dilemma game using a multi-agent framework.
+
+1. User Interaction:
+   * A menu allows the user to choose from six predefined game modes or define a custom game mode for simulation.
+2. Game Behavior:
+   * Agents adapt strategies based on interactions and limited communication, demonstrating fundamental MAS concepts.
